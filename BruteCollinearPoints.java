@@ -13,7 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class BruteCollinearPoints {
-    public LineSegment[] segs = null;
+    private LineSegment[] segs = null;
 
     public BruteCollinearPoints(Point[] points) {
         if (points == null) {

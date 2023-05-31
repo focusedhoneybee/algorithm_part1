@@ -8,7 +8,7 @@ import java.util.List;
 
 
 public class FastCollinearPoints {
-    public LineSegment[] segs = null;
+    private LineSegment[] segs = null;
 
     public FastCollinearPoints(Point[] points) {
         if (points == null) {
